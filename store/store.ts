@@ -13,7 +13,6 @@ interface SankeyState {
     activeNodes: string[];
     addActiveNode: (node: string) => void;
     removeActiveNode: (node: string) => void;
-    suh: string;
 }
 
 export const useStore = create<SankeyState>((set) => ({
